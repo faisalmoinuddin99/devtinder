@@ -1,0 +1,32 @@
+{
+  "name": "devtinder",
+  "version": "1.0.0",
+  "description": "its a tinder for developers",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/faisalmoinuddin99/devtinder.git"
+  },
+  "keywords": [
+    "tinder",
+    "nodejs",
+    "microservices",
+    "java",
+    "react.js",
+    "reactnative"
+  ],
+  "author": "faisal",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/faisalmoinuddin99/devtinder/issues"
+  },
+  "homepage": "https://github.com/faisalmoinuddin99/devtinder#readme",
+  "dependencies": {
+    "express": "^5.1.0",
+    "nodemon": "^3.1.10",
+    "winston": "^3.17.0"
+  }
+}
