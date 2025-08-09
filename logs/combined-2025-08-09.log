@@ -9,3 +9,22 @@
 2025-08-09T03:39:14.283Z [INFO]: Welcome to Login page
 2025-08-09T03:39:22.652Z [INFO]: Welcome to Login page
 2025-08-09T03:40:48.587Z [INFO]: Welcome to Login page
+2025-08-09T05:32:39.287Z [INFO]: Welcome to Login page
+2025-08-09T05:35:22.670Z [WARN]: 404 - Page not found: /google/g
+2025-08-09T05:35:32.166Z [WARN]: 404 - Page not found: /
+2025-08-09T05:36:21.536Z [WARN]: 404 - Page not found: /
+2025-08-09T05:36:47.696Z [WARN]: 404 - Page not found: /
+2025-08-09T05:39:04.213Z [WARN]: 404 - Page not found: /usertest
+2025-08-09T05:39:30.722Z [WARN]: 404 - Page not found: /usertest
+2025-08-09T05:40:04.206Z [WARN]: 404 - Page not found: /test400
+2025-08-09T05:40:09.415Z [ERROR]: Error: Testing the global error handler
+    at C:\Users\91869\OneDrive\Desktop\Namaste Node\project\devtinder_backend\devtinder\src\app.js:61:8
+    at Layer.handleRequest (C:\Users\91869\OneDrive\Desktop\Namaste Node\project\devtinder_backend\devtinder\node_modules\router\lib\layer.js:152:17)
+    at next (C:\Users\91869\OneDrive\Desktop\Namaste Node\project\devtinder_backend\devtinder\node_modules\router\lib\route.js:157:13)
+    at Route.dispatch (C:\Users\91869\OneDrive\Desktop\Namaste Node\project\devtinder_backend\devtinder\node_modules\router\lib\route.js:117:3)
+    at handle (C:\Users\91869\OneDrive\Desktop\Namaste Node\project\devtinder_backend\devtinder\node_modules\router\index.js:435:11)
+    at Layer.handleRequest (C:\Users\91869\OneDrive\Desktop\Namaste Node\project\devtinder_backend\devtinder\node_modules\router\lib\layer.js:152:17)
+    at C:\Users\91869\OneDrive\Desktop\Namaste Node\project\devtinder_backend\devtinder\node_modules\router\index.js:295:15
+    at processParams (C:\Users\91869\OneDrive\Desktop\Namaste Node\project\devtinder_backend\devtinder\node_modules\router\index.js:582:12)
+    at next (C:\Users\91869\OneDrive\Desktop\Namaste Node\project\devtinder_backend\devtinder\node_modules\router\index.js:291:5)
+    at Function.handle (C:\Users\91869\OneDrive\Desktop\Namaste Node\project\devtinder_backend\devtinder\node_modules\router\index.js:186:3)
