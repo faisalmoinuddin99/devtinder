@@ -9,6 +9,7 @@ const app = express()
 
 const PORT = process.env.PORT || 3000
 
+app.use(express.json())
 
 app.post('/signup',Signup)
 
@@ -19,7 +20,8 @@ app.use((req,res,next)=>{
     });
 })
 
-connectDB.then(()=>{
+connectDB
+    .then(()=>{
     logger.info('Connected to DB successfully.')
 
     app.listen(PORT,()=>{logger.info(`Server is running on server ${PORT}`)})

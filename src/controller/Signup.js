@@ -2,17 +2,13 @@ const {User} = require("../models/User");
 const {loggers} = require("winston");
 
 const Signup = async (req,res)=> {
-    //  create a new instance of User Model
 
+
+    console.log(req.body)
+
+    //  create a new instance of User Model
     try {
-        const user = new User({
-            firstName: "Leo",
-            lastName: "Messi",
-            emailId: "leo_messi@gmail.com",
-            password: "messi@1234",
-            gender: "male",
-            age: 33
-        })
+        const user = new User(req.body)
         await user.save()
 
         res.status(201).send({
@@ -20,6 +16,11 @@ const Signup = async (req,res)=> {
             message: "User created successfully."
         })
     } catch (error) {
+        if(error.name === 'ValidationError'){
+            res.status(400).send({
+                message: error.message,
+            })
+        }
         res.status(500).send({
             error: 'Error Creating user',
             status: 500,
