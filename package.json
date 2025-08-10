@@ -28,6 +28,7 @@
   "homepage": "https://github.com/faisalmoinuddin99/devtinder#readme",
   "dependencies": {
     "express": "^5.1.0",
+    "mongoose": "^8.17.1",
     "nodemon": "^3.1.10",
     "winston": "^3.17.0"
   }

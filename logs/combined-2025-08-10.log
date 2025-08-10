@@ -1,0 +1,32 @@
+2025-08-10T05:48:52.690Z [INFO]: Server is running on port 3000
+2025-08-10T05:50:04.959Z [INFO]: Server is running on port 3000
+2025-08-10T05:50:06.609Z [INFO]: Server is running on port 3000
+2025-08-10T05:50:31.453Z [INFO]: Server is running on port 3000
+2025-08-10T05:54:07.090Z [INFO]: Database connected successfully
+2025-08-10T05:54:07.100Z [INFO]: Server is running on port 3000
+2025-08-10T05:54:18.145Z [ERROR]: Database connection failed: Invalid scheme, expected connection string to start with "mongodb://" or "mongodb+srv://"
+2025-08-10T05:54:43.257Z [INFO]: Database connected successfully
+2025-08-10T05:54:43.265Z [INFO]: Server is running on port 3000
+2025-08-10T05:55:23.236Z [INFO]: Database connected successfully
+2025-08-10T05:55:23.245Z [INFO]: Server is running on port 3000
+2025-08-10T05:55:42.171Z [ERROR]: Database connection failed: bad auth : Authentication failed.
+2025-08-10T05:55:51.902Z [INFO]: Database connected successfully
+2025-08-10T05:55:51.911Z [INFO]: Server is running on port 3000
+2025-08-10T06:38:22.657Z [INFO]: Connected to DB successfully!
+2025-08-10T06:39:20.538Z [INFO]: Connected to DB successfully!
+2025-08-10T06:39:20.548Z [INFO]: Server started on port 3000
+2025-08-10T06:40:03.096Z [INFO]: Connected to DB successfully!
+2025-08-10T06:40:03.099Z [INFO]: Server started on port 3000
+2025-08-10T06:40:59.851Z [INFO]: Connected to DB successfully!
+2025-08-10T06:40:59.859Z [INFO]: Server started on port 3000
+2025-08-10T06:44:17.880Z [INFO]: Connected to DB successfully!
+2025-08-10T06:44:17.895Z [INFO]: Server started on port 3000
+2025-08-10T06:45:00.176Z [INFO]: Connected to DB successfully!
+2025-08-10T06:45:00.181Z [INFO]: Server started on port 3000
+2025-08-10T06:45:10.816Z [INFO]: Connected to DB successfully!
+2025-08-10T06:45:10.820Z [INFO]: Server started on port 3000
+2025-08-10T06:45:38.487Z [ERROR]: Error connecting to DB: MongoNetworkError: connect ETIMEDOUT 159.41.196.123:27017
+2025-08-10T06:45:50.121Z [INFO]: Connected to DB successfully!
+2025-08-10T06:45:50.124Z [INFO]: Server started on port 3000
+2025-08-10T06:46:47.780Z [INFO]: Connected to DB successfully!
+2025-08-10T06:46:47.787Z [INFO]: Server started on port 3000
