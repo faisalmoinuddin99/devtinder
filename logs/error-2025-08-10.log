@@ -1,3 +1,18 @@
 2025-08-10T05:54:18.145Z [ERROR]: Database connection failed: Invalid scheme, expected connection string to start with "mongodb://" or "mongodb+srv://"
 2025-08-10T05:55:42.171Z [ERROR]: Database connection failed: bad auth : Authentication failed.
 2025-08-10T06:45:38.487Z [ERROR]: Error connecting to DB: MongoNetworkError: connect ETIMEDOUT 159.41.196.123:27017
+2025-08-10T06:53:39.893Z [ERROR]: [object Object]
+2025-08-10T06:55:13.648Z [ERROR]: {"error":"Route Not Found","status":404}
+2025-08-10T07:07:50.548Z [ERROR]: {"error":"Route Not Found","status":404}
+2025-08-10T07:08:04.957Z [ERROR]: {"error":"Route Not Found","status":404}
+2025-08-10T11:27:26.598Z [ERROR]: MongoParseError: Invalid scheme, expected connection string to start with "mongodb://" or "mongodb+srv://"
+    at new ConnectionString (C:\Users\91869\OneDrive\Desktop\Namaste Node\project\devtinder_backend\devtinder\node_modules\mongodb-connection-string-url\lib\index.js:86:19)
+    at parseOptions (C:\Users\91869\OneDrive\Desktop\Namaste Node\project\devtinder_backend\devtinder\node_modules\mongodb\lib\connection_string.js:198:17)
+    at new MongoClient (C:\Users\91869\OneDrive\Desktop\Namaste Node\project\devtinder_backend\devtinder\node_modules\mongodb\lib\mongo_client.js:66:61)
+    at NativeConnection.createClient (C:\Users\91869\OneDrive\Desktop\Namaste Node\project\devtinder_backend\devtinder\node_modules\mongoose\lib\drivers\node-mongodb-native\connection.js:343:14)
+    at NativeConnection.openUri (C:\Users\91869\OneDrive\Desktop\Namaste Node\project\devtinder_backend\devtinder\node_modules\mongoose\lib\connection.js:1071:34)
+    at Mongoose.connect (C:\Users\91869\OneDrive\Desktop\Namaste Node\project\devtinder_backend\devtinder\node_modules\mongoose\lib\mongoose.js:450:15)
+    at connectDB (C:\Users\91869\OneDrive\Desktop\Namaste Node\project\devtinder_backend\devtinder\src\config\database.js:4:20)
+    at Object.<anonymous> (C:\Users\91869\OneDrive\Desktop\Namaste Node\project\devtinder_backend\devtinder\src\config\database.js:7:18)
+    at Module._compile (node:internal/modules/cjs/loader:1730:14)
+    at Object..js (node:internal/modules/cjs/loader:1895:10)

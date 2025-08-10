@@ -30,3 +30,62 @@
 2025-08-10T06:45:50.124Z [INFO]: Server started on port 3000
 2025-08-10T06:46:47.780Z [INFO]: Connected to DB successfully!
 2025-08-10T06:46:47.787Z [INFO]: Server started on port 3000
+2025-08-10T06:52:32.536Z [INFO]: Connected to DB successfully!
+2025-08-10T06:52:32.554Z [INFO]: Server started on port 3000
+2025-08-10T06:52:49.878Z [INFO]: Connected to DB successfully!
+2025-08-10T06:52:49.883Z [INFO]: Server started on port 3000
+2025-08-10T06:53:24.991Z [INFO]: Connected to DB successfully!
+2025-08-10T06:53:25.006Z [INFO]: Server started on port 3000
+2025-08-10T06:53:39.893Z [ERROR]: [object Object]
+2025-08-10T06:55:09.431Z [INFO]: Connected to DB successfully!
+2025-08-10T06:55:09.440Z [INFO]: Server started on port 3000
+2025-08-10T06:55:13.648Z [ERROR]: {"error":"Route Not Found","status":404}
+2025-08-10T06:57:55.038Z [INFO]: Connected to DB successfully!
+2025-08-10T06:57:55.053Z [INFO]: Server started on port 3000
+2025-08-10T07:03:56.112Z [INFO]: Connected to DB successfully!
+2025-08-10T07:03:56.138Z [INFO]: Server started on port 3000
+2025-08-10T07:04:24.055Z [INFO]: Connected to DB successfully!
+2025-08-10T07:04:24.071Z [INFO]: Server started on port 3000
+2025-08-10T07:06:10.693Z [INFO]: Connected to DB successfully!
+2025-08-10T07:06:10.698Z [INFO]: Server started on port 3000
+2025-08-10T07:07:14.070Z [INFO]: Connected to DB successfully!
+2025-08-10T07:07:14.087Z [INFO]: Server started on port 3000
+2025-08-10T07:07:50.548Z [ERROR]: {"error":"Route Not Found","status":404}
+2025-08-10T07:08:04.957Z [ERROR]: {"error":"Route Not Found","status":404}
+2025-08-10T07:11:55.943Z [INFO]: Connected to DB successfully!
+2025-08-10T07:11:55.960Z [INFO]: Server started on port 3000
+2025-08-10T07:13:44.692Z [INFO]: Connected to DB successfully!
+2025-08-10T07:13:44.702Z [INFO]: Server started on port 3000
+2025-08-10T07:14:30.656Z [INFO]: Connected to DB successfully!
+2025-08-10T07:14:30.661Z [INFO]: Server started on port 3000
+2025-08-10T07:15:46.698Z [INFO]: Connected to DB successfully!
+2025-08-10T07:15:46.705Z [INFO]: Server started on port 3000
+2025-08-10T07:16:49.810Z [INFO]: Connected to DB successfully!
+2025-08-10T07:16:49.815Z [INFO]: Server started on port 3000
+2025-08-10T07:17:25.718Z [INFO]: Connected to DB successfully!
+2025-08-10T07:17:25.724Z [INFO]: Server started on port 3000
+2025-08-10T07:17:49.214Z [INFO]: Connected to DB successfully!
+2025-08-10T07:17:49.218Z [INFO]: Server started on port 3000
+2025-08-10T11:27:04.289Z [INFO]: Connected to DB successfully.
+2025-08-10T11:27:04.297Z [INFO]: Server is running on server 3000
+2025-08-10T11:27:26.598Z [ERROR]: MongoParseError: Invalid scheme, expected connection string to start with "mongodb://" or "mongodb+srv://"
+    at new ConnectionString (C:\Users\91869\OneDrive\Desktop\Namaste Node\project\devtinder_backend\devtinder\node_modules\mongodb-connection-string-url\lib\index.js:86:19)
+    at parseOptions (C:\Users\91869\OneDrive\Desktop\Namaste Node\project\devtinder_backend\devtinder\node_modules\mongodb\lib\connection_string.js:198:17)
+    at new MongoClient (C:\Users\91869\OneDrive\Desktop\Namaste Node\project\devtinder_backend\devtinder\node_modules\mongodb\lib\mongo_client.js:66:61)
+    at NativeConnection.createClient (C:\Users\91869\OneDrive\Desktop\Namaste Node\project\devtinder_backend\devtinder\node_modules\mongoose\lib\drivers\node-mongodb-native\connection.js:343:14)
+    at NativeConnection.openUri (C:\Users\91869\OneDrive\Desktop\Namaste Node\project\devtinder_backend\devtinder\node_modules\mongoose\lib\connection.js:1071:34)
+    at Mongoose.connect (C:\Users\91869\OneDrive\Desktop\Namaste Node\project\devtinder_backend\devtinder\node_modules\mongoose\lib\mongoose.js:450:15)
+    at connectDB (C:\Users\91869\OneDrive\Desktop\Namaste Node\project\devtinder_backend\devtinder\src\config\database.js:4:20)
+    at Object.<anonymous> (C:\Users\91869\OneDrive\Desktop\Namaste Node\project\devtinder_backend\devtinder\src\config\database.js:7:18)
+    at Module._compile (node:internal/modules/cjs/loader:1730:14)
+    at Object..js (node:internal/modules/cjs/loader:1895:10)
+2025-08-10T11:27:33.868Z [INFO]: Connected to DB successfully.
+2025-08-10T11:27:33.876Z [INFO]: Server is running on server 3000
+2025-08-10T11:28:24.429Z [INFO]: Connected to DB successfully.
+2025-08-10T11:28:24.436Z [INFO]: Server is running on server 3000
+2025-08-10T11:31:48.669Z [INFO]: Connected to DB successfully.
+2025-08-10T11:31:48.690Z [INFO]: Server is running on server 3000
+2025-08-10T11:37:11.725Z [INFO]: Connected to DB successfully.
+2025-08-10T11:37:11.739Z [INFO]: Server is running on server 3000
+2025-08-10T11:38:51.942Z [INFO]: Connected to DB successfully.
+2025-08-10T11:38:51.972Z [INFO]: Server is running on server 3000
