@@ -2,9 +2,9 @@ const express = require('express')
 
 const connectDB = require('./config/database')
 const logger = require("./logger");
-const {User} = require("./models/User");
+
 const {Signup} = require("./controller/Signup");
-const {getUsers} = require("./controller/userController");
+const {getUsers, getUserByEmail} = require("./controller/userController");
 
 const app = express()
 
@@ -14,9 +14,9 @@ app.use(express.json())
 
 app.post('/signup',Signup)
 
+app.get("/feed", getUsers )
 
-
-app.get("/users", getUsers )
+app.get('/user/email',getUserByEmail)
 
 app.use((req,res,next)=>{
     res.status(404).send({

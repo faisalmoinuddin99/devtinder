@@ -2,14 +2,17 @@ const {User} = require("../models/User");
 
 
 const getAllUser = async ()=>{
-  return await User.find({});
+  return User.find({});
 }
 const getUserCount = async () => {
-    return await User.countDocuments()
+    return User.countDocuments();
 }
 
-
+const getUserByEmail = async (email) => {
+    return User.find({emailId: email})
+}
 module.exports = {
     getAllUser,
-    getUserCount
+    getUserCount,
+    getUserByEmail,
 }

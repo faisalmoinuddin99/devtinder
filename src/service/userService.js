@@ -22,4 +22,22 @@ const fetchUsersWithCount = async ()=>{
     }
 }
 
-module.exports = {fetchUsersWithCount}
+
+const fetchUserByEmail = async (email) => {
+    console.log("EMAIL:" + email)
+    const user = await userRepository.getUserByEmail(email)
+    console.log("RESULT: "+user)
+    if(!user){
+        return {
+            isEmpty: true,
+            message: "User does not exist"
+        }
+    }else {
+        return {
+            isEmpty: false,
+            data: user
+        }
+    }
+}
+
+module.exports = {fetchUsersWithCount, fetchUserByEmail}
