@@ -4,6 +4,7 @@ const connectDB = require('./config/database')
 const logger = require("./logger");
 const {User} = require("./models/User");
 const {Signup} = require("./controller/Signup");
+const {getUsers} = require("./controller/userController");
 
 const app = express()
 
@@ -12,6 +13,10 @@ const PORT = process.env.PORT || 3000
 app.use(express.json())
 
 app.post('/signup',Signup)
+
+
+
+app.get("/users", getUsers )
 
 app.use((req,res,next)=>{
     res.status(404).send({
