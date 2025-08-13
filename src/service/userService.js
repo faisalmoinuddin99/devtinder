@@ -40,4 +40,20 @@ const fetchUserByEmail = async (email) => {
     }
 }
 
-module.exports = {fetchUsersWithCount, fetchUserByEmail}
+const updateUserById = async(userId,updatedData)=>{
+    const user = await userRepository.getUserByIdAndUpdate(userId,updatedData)
+
+    if(!user) {
+        return {
+            isEmpty: true,
+            message: "User does not exist"
+        }
+    }else {
+        return {
+            isEmpty: false,
+            data: updatedData
+        }
+    }
+}
+
+module.exports = {fetchUsersWithCount, fetchUserByEmail, updateUserById}

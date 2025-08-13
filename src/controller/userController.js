@@ -1,20 +1,20 @@
 const userService = require('../service/userService');
 
 
-const getUsers = async (req,res)=>{
+const getUsers = async (req, res) => {
 
-    try{
+    try {
         const result = await userService.fetchUsersWithCount()
-      //  console.log("RESULT: "+JSON.stringify(result))
-        if(result.isEmpty) {
+        //  console.log("RESULT: "+JSON.stringify(result))
+        if (result.isEmpty) {
             return res.send(result.message)
-        }else {
+        } else {
             return res.status(200).send({
                 data: result.data,
                 count: result.count
             })
         }
-    }catch (err) {
+    } catch (err) {
         return res.status(400).send({
             message: "Oops, something went wrong",
             error: err.message
@@ -22,23 +22,25 @@ const getUsers = async (req,res)=>{
     }
 }
 
-const getUserByEmail = async (req,res)=>{
+const getUserByEmail = async (req, res) => {
     console.log(req.body.emailId)
     try {
         const result = await userService.fetchUserByEmail(req.body.emailId)
-        if(result.isEmpty) {
+        if (result.isEmpty) {
             return res.status(200).send("No User Found")
-        }else {
+        } else {
             return res.status(200).send({
                 data: result.data
             })
         }
-    }catch (err) {
+    } catch (err) {
         return res.status(400).send({
             message: "Oops, something went wrong",
             error: err.message
         })
     }
 }
+
+
 
 module.exports = {getUsers, getUserByEmail}
