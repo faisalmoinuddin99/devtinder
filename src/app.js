@@ -47,6 +47,27 @@ app.patch('/user', async (req, res) => {
     }
 });
 
+app.patch('/user/:email', async(req,res)=>{
+    const email = req.params.email
+    // res.send(email)
+    const data = req.body
+
+    try{
+     const updatedData =  await User.findOneAndUpdate(
+         {emailId: email},data,
+         {returnDocument:'after'}
+     )
+    if(!updatedData){
+        res.status(404).json({message: "User not found"})
+    }
+    res.status(200).json({status: "successfully updated the user", data: updatedData})
+    }catch (e) {
+        res.status(500).json({
+            message: e.message
+        })
+    }
+})
+
 
 app.delete('/user', async (req, res) => {
     try {

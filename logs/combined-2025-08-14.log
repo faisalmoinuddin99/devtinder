@@ -6,3 +6,91 @@
 2025-08-14T11:43:32.686Z [INFO]: Server is running on server 3000
 2025-08-14T11:44:23.793Z [INFO]: Connected to DB successfully.
 2025-08-14T11:44:23.803Z [INFO]: Server is running on server 3000
+2025-08-14T11:48:07.064Z [INFO]: Connected to DB successfully.
+2025-08-14T11:48:07.082Z [INFO]: Server is running on server 3000
+2025-08-14T11:50:56.938Z [ERROR]: MongoNetworkError: connect ETIMEDOUT 159.41.196.147:27017
+    at TLSSocket.<anonymous> (C:\Users\91869\OneDrive\Desktop\Namaste Node\project\devtinder_backend\devtinder\node_modules\mongodb\lib\cmap\connect.js:286:44)
+    at Object.onceWrapper (node:events:633:26)
+    at TLSSocket.emit (node:events:518:28)
+    at emitErrorNT (node:internal/streams/destroy:170:8)
+    at emitErrorCloseNT (node:internal/streams/destroy:129:3)
+    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)
+2025-08-14T11:53:02.490Z [INFO]: Connected to DB successfully.
+2025-08-14T11:53:02.498Z [INFO]: Server is running on server 3000
+2025-08-14T11:53:25.305Z [INFO]: Connected to DB successfully.
+2025-08-14T11:53:25.338Z [INFO]: Server is running on server 3000
+2025-08-14T11:53:54.525Z [INFO]: Connected to DB successfully.
+2025-08-14T11:53:54.632Z [INFO]: Server is running on server 3000
+2025-08-14T11:54:16.077Z [INFO]: Connected to DB successfully.
+2025-08-14T11:54:16.093Z [INFO]: Server is running on server 3000
+2025-08-14T11:54:24.622Z [INFO]: Connected to DB successfully.
+2025-08-14T11:54:24.642Z [INFO]: Server is running on server 3000
+2025-08-14T11:55:31.382Z [INFO]: Connected to DB successfully.
+2025-08-14T11:55:31.388Z [INFO]: Server is running on server 3000
+2025-08-14T11:55:44.946Z [INFO]: Connected to DB successfully.
+2025-08-14T11:55:44.955Z [INFO]: Server is running on server 3000
+2025-08-14T11:56:07.127Z [INFO]: Connected to DB successfully.
+2025-08-14T11:56:07.135Z [INFO]: Server is running on server 3000
+2025-08-14T11:56:17.677Z [INFO]: Connected to DB successfully.
+2025-08-14T11:56:17.689Z [INFO]: Server is running on server 3000
+2025-08-14T11:56:22.944Z [INFO]: Connected to DB successfully.
+2025-08-14T11:56:22.954Z [INFO]: Server is running on server 3000
+2025-08-14T11:56:38.560Z [INFO]: Connected to DB successfully.
+2025-08-14T11:56:38.564Z [INFO]: Server is running on server 3000
+2025-08-14T11:58:00.555Z [INFO]: Connected to DB successfully.
+2025-08-14T11:58:00.561Z [INFO]: Server is running on server 3000
+2025-08-14T12:00:05.210Z [INFO]: Connected to DB successfully.
+2025-08-14T12:00:05.210Z [INFO]: Connected to DB successfully.
+2025-08-14T12:00:05.223Z [INFO]: Server is running on server 3000
+2025-08-14T12:00:05.224Z [INFO]: Server is running on server 3000
+2025-08-14T12:01:08.421Z [INFO]: Connected to DB successfully.
+2025-08-14T12:01:08.426Z [INFO]: Server is running on server 3000
+2025-08-14T12:01:08.426Z [INFO]: Connected to DB successfully.
+2025-08-14T12:01:08.429Z [INFO]: Server is running on server 3000
+2025-08-14T12:02:51.142Z [INFO]: Connected to DB successfully.
+2025-08-14T12:02:51.155Z [INFO]: Server is running on server 3000
+2025-08-14T12:02:51.247Z [INFO]: Connected to DB successfully.
+2025-08-14T12:02:51.254Z [INFO]: Server is running on server 3000
+2025-08-14T12:03:07.398Z [INFO]: Connected to DB successfully.
+2025-08-14T12:03:07.407Z [INFO]: Server is running on server 3000
+2025-08-14T12:03:07.422Z [INFO]: Connected to DB successfully.
+2025-08-14T12:03:07.430Z [INFO]: Server is running on server 3000
+2025-08-14T12:03:50.486Z [INFO]: Connected to DB successfully.
+2025-08-14T12:03:50.492Z [INFO]: Connected to DB successfully.
+2025-08-14T12:03:50.497Z [INFO]: Server is running on server 3000
+2025-08-14T12:03:50.501Z [INFO]: Server is running on server 3000
+2025-08-14T12:07:57.990Z [INFO]: Connected to DB successfully.
+2025-08-14T12:07:57.991Z [INFO]: Connected to DB successfully.
+2025-08-14T12:07:58.002Z [INFO]: Server is running on server 3000
+2025-08-14T12:07:58.005Z [INFO]: Server is running on server 3000
+2025-08-14T12:18:34.134Z [INFO]: Connected to DB successfully.
+2025-08-14T12:18:34.133Z [INFO]: Connected to DB successfully.
+2025-08-14T12:18:34.158Z [INFO]: Server is running on server 3000
+2025-08-14T12:18:34.159Z [INFO]: Server is running on server 3000
+2025-08-14T12:19:01.876Z [INFO]: Connected to DB successfully.
+2025-08-14T12:19:01.884Z [INFO]: Server is running on server 3000
+2025-08-14T12:19:01.934Z [INFO]: Connected to DB successfully.
+2025-08-14T12:19:01.938Z [INFO]: Server is running on server 3000
+2025-08-14T12:19:05.431Z [INFO]: email
+2025-08-14T12:19:39.106Z [INFO]: Connected to DB successfully.
+2025-08-14T12:19:39.109Z [INFO]: Connected to DB successfully.
+2025-08-14T12:19:39.118Z [INFO]: Server is running on server 3000
+2025-08-14T12:19:39.128Z [INFO]: Server is running on server 3000
+2025-08-14T12:21:53.240Z [INFO]: Connected to DB successfully.
+2025-08-14T12:21:53.240Z [INFO]: Connected to DB successfully.
+2025-08-14T12:21:53.252Z [INFO]: Server is running on server 3000
+2025-08-14T12:21:53.252Z [INFO]: Server is running on server 3000
+2025-08-14T12:22:59.561Z [INFO]: Connected to DB successfully.
+2025-08-14T12:22:59.568Z [INFO]: Server is running on server 3000
+2025-08-14T12:22:59.613Z [INFO]: Connected to DB successfully.
+2025-08-14T12:22:59.620Z [INFO]: Server is running on server 3000
+2025-08-14T12:23:43.146Z [INFO]: Connected to DB successfully.
+2025-08-14T12:23:43.146Z [INFO]: Connected to DB successfully.
+2025-08-14T12:23:43.157Z [INFO]: Server is running on server 3000
+2025-08-14T12:23:43.157Z [INFO]: Server is running on server 3000
+2025-08-14T12:24:42.503Z [INFO]: Connected to DB successfully.
+2025-08-14T12:24:42.508Z [INFO]: Server is running on server 3000
+2025-08-14T12:26:42.007Z [INFO]: Connected to DB successfully.
+2025-08-14T12:26:42.016Z [INFO]: Connected to DB successfully.
+2025-08-14T12:26:42.014Z [INFO]: Server is running on server 3000
+2025-08-14T12:26:42.022Z [INFO]: Server is running on server 3000
