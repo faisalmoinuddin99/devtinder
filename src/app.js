@@ -6,6 +6,7 @@ const logger = require("./logger");
 const {Signup} = require("./controller/Signup");
 const {getUsers, getUserByEmail, updateUserById} = require("./controller/userController");
 const {User} = require("./models/User");
+const {fetchUserByEmail} = require("./service/userService");
 
 const app = express()
 
@@ -20,10 +21,32 @@ app.get("/feed", getUsers)
 app.get('/user/email', getUserByEmail)
 
 app.patch('/user', async (req, res) => {
-    const userId = req.body.userId
-    console.log(userId)
-    res.send(userId)
-})
+    const userId = req.body.userId;
+    const data = req.body;
+  //  console.log(fetchUserByEmail(req.body.emailId))
+    try {
+        const user = await User.findByIdAndUpdate(
+            userId,
+            data,
+            { returnDocument: "after" } // Mongoose v6+, else use { new: true }
+        );
+
+        if (!user) {
+            return res.status(404).json({ message: "User does not exist" });
+        }
+
+        res.status(200).json({
+            status: "successfully updated the user",
+            data: user
+        });
+
+    } catch (err) {
+        res.status(500).json({
+            message: err.message
+        });
+    }
+});
+
 
 app.delete('/user', async (req, res) => {
     try {
